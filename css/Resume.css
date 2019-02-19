@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Karla');
+@media only screen and (max-width: 480px) {
+
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    border-radius: 0px 0px 5px 5px;
+    border-style: none;
+}
+.fixed-nav-bar li a {
+    display: block;
+    text-align: center;
+    padding: 10px 12px;
+	color: white;
+	text-decoration: none;
+    float: right;
+    font-family: 'Karla', 'sans-serif';
+}
+.fixed-nav-bar li {
+    float: right;
+	list-style-type: none;
+	margin: 0;
+    padding: 0;
+    font-size: 1rem;
+}
+.fixed-nav-bar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9998;
+  width: 100%;
+  height: 30px;
+  background: none;
+  transition: 0.3s;
+}
+body {
+    background-color: rgba(255, 250, 232, 0.651);
+    font-size: 62.5%;
+    background-image: url(/img/leaves-pattern.png);
+}
+.flexbody {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.topimage{
+    line-height: 0;
+    position: relative;
+    background-image: linear-gradient(
+        to right,
+        rgb(0, 0, 0), 
+        rgb(245, 243, 147)
+    )
+}
+
+.tree img {
+    margin: 0;
+}
+.tree {
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+    text-align: center;
+    z-index: 4;
+}
+.bright {
+    position: absolute;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.salepara {
+    font-family: 'Karla', sans-serif;
+    z-index: 24;
+    font-size: 1.7rem;
+    font-style: bold;
+    bottom: 0;
+    left: 0;
+    color: rgb(15, 208, 241);
+    padding-bottom: 9%;
+    position: absolute;
+    margin-left: 33%;
+}
+.mebar{
+    margin-left: 7.5%;
+    position: relative;
+    margin-top: 5%;
+
+}
+.picme {
+    background-image: linear-gradient(
+        90deg,
+        rgba(72, 253, 25, 0.521),
+        rgba(63, 76, 150, 0.7),
+        rgba(71, 253, 25, 0.521)
+    );
+    max-width: 50%;
+    max-height: 3%;
+    min-height: 350px;
+    height: 52%;
+    width: 35%;
+    position: absolute;
+    z-index: 100;
+}
+.aboutme {
+    background-color: rgb(179, 188, 207);
+    background-image: linear-gradient(
+        rgb(179, 188, 207),
+        rgb(158, 213, 235)
+    );
+    font-size: 1.35rem;
+    overflow: hidden;
+    font-family: 'Karla', sans-serif;
+    max-height: 3%;
+    min-height: 350px;
+    max-width: 85%;
+    height: 52%;
+    z-index: 100;
+    width: 63%;
+    margin-left: 35%;
+    margin-right: 2.75%;
+    padding-left: 1%;
+    position: relative;
+}
+.projects{
+    background-color: rgb(179, 188, 207);
+    background-image: linear-gradient(
+        rgb(245, 243, 147),
+        rgb(255, 244, 195)
+    );
+    width: 90%;
+    z-index: 3;
+    min-height: 200px;
+    font-size: 1.35rem;
+    font-family: 'Karla', sans-serif;
+    margin-top: 5%;
+    margin-left: 5%;
+    position: relative;
+}
+.service {
+    background-color: rgb(179, 188, 207);
+    background-image: linear-gradient(
+        rgb(179, 188, 207),
+        rgb(158, 213, 235)
+    );
+    width: 90%;
+    z-index: 3;
+    min-height: 200px;
+    font-size: 1.35rem;
+    font-family: 'Karla', sans-serif;
+    margin-top: 5%;
+    margin-left: 5%;
+    position: relative;
+}
+.findme {
+    background-color: rgb(245, 243, 147);
+    background-image: linear-gradient(
+        rgb(245, 243, 147),
+        rgb(255, 244, 195)
+    );
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 5%;
+    position: relative;
+    margin-bottom: 5%;
+    height: 25%;
+}
+.contact{
+    background-color: rgb(179, 188, 207);
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+.github {
+    background-color: rgb(255, 255, 255);
+    margin-left: 30%;
+    cursor: pointer;
+}
+.linkedin {
+    cursor: pointer;
+    margin-left: 25%;
+}
